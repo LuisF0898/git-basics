@@ -1,9 +1,16 @@
+import { useState } from "react";
+import Title from "./components/Title";
+
+
 function App() {
+
   return (
     <div className="App">
-      <h1>Hola mundo</h1>
+      <Title text="Hola mundo!!!"></Title>
     </div>
   );
 }
+
+
 
 export default App;
